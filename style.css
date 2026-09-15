@@ -1,0 +1,8 @@
+body{font-family:Arial;background:#fdf6f0;margin:0;padding:30px;text-align:center;color:#333}
+h1{color:#ff6b6b}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;max-width:1000px;margin:30px auto}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,.1);transition:.3s}
+.card:hover{transform:translateY(-6px)}
+.card img{width:100%;height:200px;object-fit:cover;display:block}
+.card h2{margin:12px 0 5px;font-size:20px}
+.card p{margin:0 0 15px;color:#777;font-size:14px}
