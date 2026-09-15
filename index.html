@@ -2,38 +2,53 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Котики</title>
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+ rel="stylesheet">
+<!-- Твой стиль -->
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>🐱 Породы котиков</h1>
-<div class="grid">
 
-<div class="card">
-<img src="kot1.jpg" alt="Британская">
-<h2>Британская</h2>
-<p>Плюшевая, спокойная.</p>
-    <p>Характер: сдержанный, независимый, «аристократичный». Ценят личное пространство, не навязчивы, но при этом умны и ласковы. Спокойно переносят одиночество, но не любят, когда их долго держат на руках.</p> 
-</p>
+<div class="container py-5">
+  <h1 class="text-center mb-5">🐱 Породы котиков</h1>
+
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="kot1.jpg" class="card-img-top" alt="Британская">
+        <div class="card-body">
+          <h2 class="card-title h5">Британская</h2>
+          <p class="card-text">Плюшевая, спокойная.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="kot2.jpg" class="card-img-top" alt="Сфинкс">
+        <div class="card-body">
+          <h2 class="card-title h5">Сфинкс</h2>
+          <p class="card-text">Лысый, ласковый.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="kot3.jpg" class="card-img-top" alt="Шотландская">
+        <div class="card-body">
+          <h2 class="card-title h5">Шотландская</h2>
+          <p class="card-text">Ушки вниз, милая.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-
-
-<div class="card">
-<img src="kot2.jpg" alt="Сфинкс">
-<h2>Сфинкс</h2>
-<p>Лысый, ласковый.</p>
-    <p>Характер: крайне общительный, преданный, нуждается в постоянном тактильном контакте. Любит быть в центре внимания, часто следует за хозяином по пятам. Хорошо чувствует настроение человека, поддаётся дрессировке. Плохо переносит одиночество.</p>
-
-</div>
-<div class="card">
-<img src="kot3.jpg" alt="Шотландская">
-<h2>Шотландская</h2>
-<p>Ушки вниз, милая.</p>
-    <p>Характер: более общительная и привязанная к хозяину, чем британец, но при этом сохраняет независимость. Хорошо ладит с детьми и другими животными, если знакомство прошло гладко.</p>
-</div>
-
-
-</div>
 </body>
 </html>
